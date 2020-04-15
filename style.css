@@ -1,3 +1,6 @@
+body {
+    background-color: #ccc;
+}
 .nav-bar{
     height: 30px;
     width: 100%;
@@ -15,13 +18,13 @@ a{
 }
 
 a:hover{
-    background-color: white;
+    background-color: #ccc;
     transition: 0.6s;
     text-decoration: none;
     color: black;
 }
 
-img {
+.perfil > img {
     display: block;
     height: 20vh;
     width: auto;
@@ -32,3 +35,25 @@ img {
     align-items: center;
 }
 
+h1{
+    text-align: center;
+}
+
+.section > img {
+    height: 300px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.section > p{
+    text-align: justify;
+    margin-right: 100px;
+}

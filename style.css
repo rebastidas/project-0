@@ -66,7 +66,7 @@ span{
     color: black;
     background-color: #ccc;
 }
-/* education  page*/
+/*----------- education  page-----------*/
 
 .edutitle{
     margin-top: 50px;
@@ -82,14 +82,44 @@ span{
     background-size: cover;
     height: 100vh;
     text-align: center;
-    color: white;
+    color: #ccc;
 }
 
 .electronics{
 padding-top: 50vh;
 }
 
-.description{
+#mini-desk{
     margin-left: 100px;
-    margin-right: 100px;
+}
+
+.mini-description{
+    align-self: flex-end;
+    padding-left: 5px;
+}
+
+.mini-description >p{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.description {
+margin-left: 100px;
+margin-right: 100px; 
+text-align: justify;
+padding-top: 10px;
+}
+
+ul {
+    list-style: none;
+    text-align: justify;
+}
+
+.skills > h2{
+    text-align: center;
+    padding: 50px;
+}
+
+.container{
+   margin-bottom: 10px;
 }

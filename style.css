@@ -178,3 +178,11 @@ ul {
 .info{
     margin: 0px;
 }
+
+footer{
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

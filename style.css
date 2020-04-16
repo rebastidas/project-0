@@ -180,6 +180,9 @@ ul {
 }
 
 footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color: black;
     color: red;
     text-align: center;

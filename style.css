@@ -57,3 +57,39 @@ h1{
     text-align: justify;
     margin-right: 100px;
 }
+
+span{
+    color: red;
+}
+
+.current{
+    color: black;
+    background-color: #ccc;
+}
+/* education  page*/
+
+.edutitle{
+    margin-top: 50px;
+}
+
+.section-education{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: url('electronics.jpg');
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+.electronics{
+padding-top: 50vh;
+}
+
+.description{
+    margin-left: 100px;
+    margin-right: 100px;
+}

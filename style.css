@@ -112,7 +112,6 @@ padding-top: 10px;
 
 ul {
     list-style: none;
-    text-align: justify;
 }
 
 .skills > h2{
@@ -122,4 +121,8 @@ ul {
 
 .container{
    margin-bottom: 10px;
+}
+
+.container > img{
+    border-radius: 20%;
 }
